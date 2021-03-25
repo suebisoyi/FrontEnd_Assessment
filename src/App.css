@@ -2,9 +2,20 @@
   text-align: center;
 }
 
+.App ::-webkit-scrollbar {
+  display: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+@font-face {
+  font-family: 'Pragmatica ExtraLight Reg';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Pragmatica ExtraLight Reg'), url('../public/fonts/Pragmatica-ExtraLight.woff') format('woff');
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +46,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: 'Pragmatica ExtraLight Reg';
+  /*font-family: 'Helvetica Neue';*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

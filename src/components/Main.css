@@ -1,0 +1,1315 @@
+/* Header Start */
+.root {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.appbar {
+  margin-top: 23px;
+}
+
+.appbarWrapper {
+  width: 100%;
+}
+
+.appTitle {
+  font-size: 48px;/**/
+  color: white;
+}
+
+.appTitle:hover {
+  cursor: pointer;
+}
+
+.iconButton {
+  margin-top: 200px;
+}
+
+.sorticon {
+  color: white;
+  font-size: 2rem;
+}
+
+/*.nav-menu {
+  /*margin-top: -242px;
+  margin-left: -184px;
+  left: -100%;
+  transition: 850ms;
+  width: 720px;
+  height: 682px;
+  border-radius: 50%;
+  background: #0B0B0B 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.nav-menu.active {
+  left:0;
+  transition: 350ms;
+}*/
+
+.CTAButtonNAVBAR {
+  visibility: hidden;
+  width: 248px;
+  height: 62px;
+  background: white 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 79px;
+}
+
+.CTAButtonNAVBAR-RedSection {
+  visibility: visible;
+  background: white;
+  color: #D34848;
+}
+
+.CTAButtonNAVBAR-YellowSection {
+  visibility: visible;
+  background: white;
+  color: #FFB33F;
+}
+
+.CTAButtonNAVBAR-PerksSection {
+  visibility: visible;
+  background:  transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 44%, #D34848 74%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+  color: white;
+}
+
+.CTAButtonNAVBAR-ReviewsSection {
+  visibility: visible;
+  background: white;
+  color: #1FE1E9;
+}
+
+
+.CTAButtonTextNAVBAR {
+  text-align: left;
+  font: normal normal bold 18px Helvetica;
+  letter-spacing: 1.8px;
+  opacity: 1;
+}
+
+/* Header End */
+
+/* Landing Page Data Start */
+.landingPageDataRoot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.landingPageCarousel {
+  z-index: -1000;
+  max-height: 100vh;
+  position: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+
+.landingHeroPage {
+  z-index: 1;
+  /*position: absolute; */
+  margin-top: -92vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /*height: 100vh;*/
+}
+
+.sloganAndCTASection {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sloganText {
+  z-index: 1;
+  /*margin-top: -222vh;*/
+  text-align: left;
+  font-size: 65px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 6.5px;
+}
+
+.descriptiveText {
+  z-index: 1;
+  margin-top: 5vh;
+  text-align: center;
+  font-weight: normal;
+  font-size: 32px;
+  color: #fff;
+}
+
+.CTAButtonLandingPage { 
+  z-index: 1;
+  background-color: RED;
+  border-radius: 79px;
+}
+
+.CTAButtonTextLandingPage {
+  color: white;
+}
+
+.CTAButton {
+  height: 81px;
+  width: 338px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 79px;
+}
+
+.CTAButtonText {
+  text-align: left;
+  font: normal normal bold 23px/28px Helvetica;
+  letter-spacing: 2.3px;
+  opacity: 1;
+}
+
+.sectionRED{
+  flex-basis: 100%;
+  height: 0;
+  height: 100vh;
+  width: 100%;
+  background-Color: #D34848;
+}
+
+.containerRED {
+
+}
+
+.sloganTextRED {
+  margin-top: 35vh;
+  margin-left: 184px;
+  /*width: 773px;
+  height: 88px;*/
+  text-align: left;
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 7.4px;
+  color: #FFFFFF;
+  opacity: 1;
+ /* marginLeft: '36vh',
+  text-align: left;
+  font-size: 74px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 7.4px;*/
+}
+
+.descriptiveTextRED {
+  margin-top: -5px;
+  margin-left: 184px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 41px;
+  letter-spacing: 5.1px;
+  color: #000000;
+}
+
+.medium17SpeakerRED {
+  position: absolute;
+  /*margin-top: -405px;
+  margin-left: 484px;*/
+  margin-top: -486px;
+  margin-left: 784px;
+}
+
+.medium27SpeakerRED {
+  position: absolute;
+  margin-top: -210px;
+  margin-left: 1084px;
+}
+
+.CTAButtonRED {
+  margin-left: -1200px;
+}
+
+.CTAButtonTextRED {
+  color: #D1346E;
+}
+
+.sectionYELLOW {
+  background-color: #FFB33F;
+  height: 100vh;
+  width: 100%;
+}
+
+.sloganTextYELLOW {
+  position: relative;
+  z-index: 10;
+  /*margin-top: 357px;*/
+  margin-top: 35vh;
+  margin-left: 900px;
+  text-align: left;
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 6.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.descriptiveTextYELLOW {
+  position: relative;
+  z-index: 10;
+  margin-top: -5px;
+  margin-left: 900px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 41px;
+  letter-spacing: 5.1px;
+  color: #000000;
+}
+
+.hiddenBackgroundRevealedOnMouseOver {
+  z-index: 5;
+  position: absolute;
+  top: calc(50% - 5rem);
+  left: calc(50% - 5rem);
+  width: 20rem;
+  height: 20rem;
+  background: url('Image 4@2x.png') 20% 50% no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.CTAButtonYELLOW {
+  position: relative;
+  z-index: 10;
+  margin-top: 0;
+  margin-left: 220px;
+}
+
+.CTAButtonTextYELLOW {
+  color: #FFB33F;
+}
+
+.sectionPerks {
+  background-color: #191919;
+  height: 100vh;
+  width: 100%;
+}
+
+.containerPERKS {
+  margin-left: -135px;
+}
+
+.perksContainer {
+  display: grid;
+  grid-template: 440px 440px 440px;
+}
+
+.perkOneSPM {
+  grid-column-start: 1;
+}
+
+.perkTwoSNFCP {
+  grid-column-start: 2;
+}
+
+.perkThreeSPM {
+  grid-column-start: 3;
+}
+
+.sloganTextPERKS {
+  margin-top: 127px;
+  margin-left: 174px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: 6.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.perkOneLineDivider {
+  margin-top: 32px;
+  margin-left: 189px;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #D34848;
+  opacity: 1;
+}
+
+.perkOneTitle {
+  margin-top: 59px;
+  margin-left: 188px;
+  width: 383px;
+  height: 185px;
+  text-align: left;
+  font: normal normal bold 51px/62px Helvetica;
+  letter-spacing: 5.1px;
+  color: #D34848;
+  opacity: 1;
+}
+
+.perkOneDescription{
+  margin-top: 72px;
+  margin-left: 188px;
+  width: 433px;
+  height: 163px;
+  text-align: left;
+  font: normal normal normal 35px/41px Helvetica;
+  letter-spacing: 3.5px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.perkTwoLineDivider {
+  margin-top: 32px;
+  margin-left: 198px;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #1FE1E9;
+  opacity: 1;
+}
+
+.perkTwoTitle {
+  margin-top: 59px;
+  margin-left: 197px;
+  width: 342px;
+  height: 185px;
+  text-align: left;
+  font: normal normal bold 51px/62px Helvetica;
+  letter-spacing: 5.1px;
+  color: #1FE1E9;
+  opacity: 1;
+}
+
+.perkTwoDescription {
+  margin-top: 72px;
+  margin-left: 197px;
+  width: 433px;
+  height: 163px;
+  text-align: left;
+  font: normal normal normal 35px/41px Helvetica;
+  letter-spacing: 3.5px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.perkThreeLineDivider {
+  margin-top: 32px;
+  margin-left: 177px;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #FFB33F;
+  opacity: 1;
+}
+
+.perkThreeTitle {
+  margin-top: 59px;
+  margin-left: 177px;
+  width: 383px;
+  height: 185px;
+  text-align: left;
+  font: normal normal bold 51px/62px Helvetica;
+  letter-spacing: 5.1px;
+  color: #FFB33F;
+  opacity: 1;
+}
+
+.perkThreeDescription {
+  margin-top: 72px;
+  margin-left: 177px;
+  width: 433px;
+  height: 163px;
+  text-align: left;
+  font: normal normal normal 35px/41px Helvetica;
+  letter-spacing: 3.5px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.sectionReviews {
+  background-color: #1FE1E9;
+  height: 100vh;
+  width: 100%;
+}
+
+.speakerImage1Container {
+  z-index: 5;
+  margin-left: -1360px;
+  margin-top: -730px;/*-383px*/
+}
+
+.speakerImage2Container {
+  z-index: 5;
+  margin-left: -980px;
+  margin-top: -356px;/*-356px*/
+}
+
+.smallSpeaker1Image {
+  margin-top: 119px;
+  margin-left: 29px;
+  width: 580px;/* 550px */
+  height: 490px;/* 480px */
+  opacity: 1;
+}
+
+.smallSpeaker2Image {
+  margin-top: 149px;
+  margin-left: -125px;
+  width: 580px;/* 550px */
+  height: 490px;/* 480px */
+  opacity: 1;
+}
+
+.sloganTextREVIEWS {
+  z-index: 10;
+  margin-top: 299px;
+  margin-left: 633px;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: 74px;
+  letter-spacing: 7.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.reviewsContainer {
+  display: grid;
+  margin-left: 513px;
+  grid-template: 80px 80px 80px;
+}
+
+.reviewOne {
+  grid-column-start: 1;  margin-left: 120px;
+}
+.reviewTwo {
+  grid-column-start: 2;
+}
+.reviewThree {
+  grid-column-start: 3;
+}
+
+.reviewerNameOne {
+  margin-top: 26px;
+ /*left: 633px;*/
+
+  /*width: 142px;*/
+  /*height: 42px;*/
+  text-align: left;
+  font: normal normal bold 35px/43px Helvetica;
+  letter-spacing: 3.5px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.reviewDescriptionOne {
+  margin-top: 20px;
+  margin-left: -4px;/*124px*/
+  text-align: left;
+  font-weight: normal;
+  font-size: 35px;
+  letter-spacing: 3.5px;
+  color: #000000;
+}
+
+.reviewerNameTwo {
+  margin-top: 26px;
+  margin-left: 0px;
+  /*width: 142px;*/
+  /*height: 42px;*/
+  text-align: left;
+  font: normal normal bold 35px/43px Helvetica;
+  letter-spacing: 3.5px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+
+.reviewDescriptionTwo {
+  margin-top: 20px;
+  margin-left: 0px;/*124px*/
+  text-align: left;
+  font-weight: normal;
+  font-size: 35px;
+  letter-spacing: 3.5px;
+  color: #000000;
+}
+
+.reviewerNameThree {
+  margin-top: 26px;
+  margin-left: 0px;
+  /*margin-left: 0px;*/
+  /*width: 142px;*/
+  /*height: 42px;*/
+  text-align: left;
+  font: normal normal bold 35px/43px Helvetica;
+  letter-spacing: 3.5px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+
+.reviewDescriptionThree {
+  margin-top: 20px;
+  margin-left: 0px;/*124px*/
+  text-align: left;
+  font-weight: normal;
+  font-size: 35px;
+  letter-spacing: 3.5px;
+  color: #000000;
+}
+
+.fiveStarsContainer {
+  margin-left: -244px;
+}
+
+.fiveStarsContainer1 {
+  margin-left: -255px;
+}
+
+.fiveStarsContainer2 {
+  margin-left: -253px;
+}
+
+.sectionGetAppNow {
+  background-color: #191919;
+  height: 80vh;
+  width: 100%;
+}
+
+.containerGETAPPNOW {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  margin-top: 45px;
+}
+
+.sloganTextGetAppNow {
+  grid-column-start: 1;
+  margin-top: 251px;
+  margin-left: 172px;
+  width: 900px;
+  text-align: left;
+  font: normal normal bold 74px/90px Helvetica;
+  letter-spacing: 7.4px;
+  color: #D34848;
+  opacity: 1;
+}
+
+.decriptionTextGetAppNow {
+  grid-column-start: 1;
+  margin-top: -5px;
+  margin-left: 172px;
+  width: 941px;
+  height: 60px;
+  text-align: left;
+  font: normal normal normal 51px/61px Helvetica;
+  letter-spacing: 5.1px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+/**/
+.CTAButtonGETAPPNOW {
+  grid-column-end: 1;
+  grid-column-start: 2;
+  border: none;
+  margin-top: -181px;
+  margin-left: 1320px;
+  width: 360px;
+  height: 100px;
+  background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  opacity: 1;
+}
+
+.CTAButtonTextGETAPPNOW {
+  color: white;
+}
+/**/
+
+.sectionFooter {
+  background-color: #5E33D1;
+  height: 50vh;
+  width: 100%;
+}
+
+.containerFOOTER {
+  text-align: left;
+}
+
+.emailIcon {
+  margin-top: 135px;
+  margin-left: 140px;
+  width: 37px;
+  height: 29px;
+  opacity: 1;
+}
+
+.companyEmail {
+  margin-top: -42px;
+  margin-left: 198px;
+  width: 604px;
+  height: 40px;
+  text-align: left;
+  font: normal normal normal 35px/41px Helvetica;
+  letter-spacing: 3.5px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.companyName {
+  margin-top: 156px;
+  margin-left: 814px;
+  width: 235px;
+  height: 56px;
+  text-align: left;
+  font: normal normal normal 48px/57px Helvetica;
+  letter-spacing: 4.8px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.companyTradeMark {
+  margin-top: 47px;
+  margin-left: 480px;
+  width: 1101px;
+  height: 28px;
+  text-align: left;
+  font: normal normal normal 24px/29px Helvetica;
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+/* Landing Page Data End */
+
+/* Image Coursel Start */
+
+.image1 {
+  max-height: 100vh;
+  width: 100%;
+  object-fit: fill;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+
+.image2 {
+  max-height: 100vh;
+  width: 100%;
+  object-fit:cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+
+.image3 {
+    max-height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+
+/* Image Coursel End */
+
+/* Pricing Page Start */
+
+.sectionPricing {
+  background-color: #191919;
+  height: 135vh;
+  width: 100%;
+}
+
+.sloganTextPRICING {
+  margin-top: 88px;
+  margin-left: 183px;
+  width: 357px;
+  height: 88px;
+  text-align: left;
+  font: normal normal bold 54px Helvetica;
+  letter-spacing: 5.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.decriptionTextPRICING {
+  margin-top: -34px;
+  margin-left: 183px;
+  width: 1550px;
+  height: 140px;
+  text-align: left;
+  font: normal normal normal 31px Helvetica;
+  letter-spacing: 3.1px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.pricesContainer {
+  display: grid;
+  grid-template-columns: 440px 440px 440px;
+  margin-top: -200px;
+  margin-left: 185px;
+}
+
+.priceOne {
+  grid-column-start: 1;
+}
+
+.priceOneTier {
+  margin-top: 178px;
+  /*margin-left: 199px;*/
+  width: 146px;
+  height: 50px;
+  text-align: left;
+  font: normal normal bold 42px/51px Helvetica;
+  letter-spacing: 4.2px;
+  color: #D24848;
+  opacity: 1;
+}
+
+.priceOneLineDivider {
+  margin-top: 18px;
+  /*margin-left: 199px;*/
+  width: 141px;
+  height: 0px;
+  border: 2px solid #D14747;
+  opacity: 1;
+}
+
+.priceOneType {
+  margin-top: 28px;
+  /*margin-left: 199px;*/
+  width: 260px;
+  height: 56px;
+  text-align: left;
+  font: normal normal bold 47px/57px Helvetica;
+  letter-spacing: 4.7px;
+  color: #D24848;
+  opacity: 1;
+}
+
+.priceOneCost {
+  margin-top: 35px;
+  /*margin-left: 199px;*/
+  width: 162px;
+  height: 160px;
+  text-align: left;
+  font: normal normal bold 134px/164px Helvetica;
+  letter-spacing: 13.4px;
+  color: #D24848;
+  opacity: 1;
+}
+
+.priceOneDescription {
+  margin-top: 20px;
+  /*margin-left: 199px;*/
+  width: 336px;
+  height: 375px;
+  text-align: left;
+  font: normal normal normal 47px/64px Helvetica;
+  letter-spacing: 4.7px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.priceTwo {
+  grid-column-start: 2;
+}
+
+.priceTwoTier { 
+  margin-top: 178px;
+  /* margin-left: 357px;*/
+  width: 99px;
+  height: 50px;
+  text-align: left;
+  font: normal normal bold 42px/51px Helvetica;
+  letter-spacing: 4.2px;
+  color: #FFB33F;
+  opacity: 1;
+}
+
+.priceTwoLineDivider {
+  margin-top: 18px;
+ /* margin-left: 357px;*/
+  width: 141px;
+  height: 0px;
+  border: 2px solid #FFB33F;
+  opacity: 1;
+}
+
+.priceTwoType {  
+  margin-top: 28px;
+ /* margin-left: 357px;*/
+  width: 205px;
+  height: 56px;
+  text-align: left;
+  font: normal normal bold 47px/57px Helvetica;
+  letter-spacing: 4.7px;
+  color: #FFB33F;
+  opacity: 1;
+}
+
+.priceTwoCost {
+  margin-top: 35px;
+   /* margin-left: 357px;*/
+  width: 252px;
+  height: 161px;
+  text-align: left;
+  font: normal normal bold 135px/165px Helvetica;
+  letter-spacing: 13.5px;
+  color: #FFB33F;
+  opacity: 1;
+}
+
+.priceTwoDescription {
+  margin-top: 20px;
+ /* margin-left: 357px;*/
+  width: 436px;
+  height: 375px;
+  text-align: left;
+  font: normal normal normal 47px/64px Helvetica;
+  letter-spacing: 4.7px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+
+.priceThree {
+  grid-column-start: 3;
+}
+
+.priceThreeTier {
+  margin-top: 178px;
+  margin-left: 50px;
+  width: 99px;
+  height: 50px;
+  text-align: left;
+  font: normal normal bold 42px/51px Helvetica;
+  letter-spacing: 4.2px;
+  color: #1FE1E9;
+  opacity: 1;
+}
+
+.priceThreeLineDivider {
+  margin-top: 18px;
+  margin-left: 50px;
+  width: 141px;
+  height: 0px;
+  border: 2px solid #1FE1E9;
+  opacity: 1;
+}
+
+.priceThreeType {
+  margin-top: 28px;
+  margin-left: 50px;
+  width: 205px;
+  height: 56px;
+  text-align: left;
+  font: normal normal bold 47px/57px Helvetica;
+  letter-spacing: 4.7px;
+  color: #1FE1E9;
+  opacity: 1;
+}
+
+.priceThreeCost {
+  margin-top: 35px;
+  margin-left: 50px;
+  width: 252px;
+  height: 161px;
+  text-align: left;
+  font: normal normal bold 135px/165px Helvetica;
+  letter-spacing: 13.5px;
+  color: #1FE1E9;
+  opacity: 1;
+}
+
+.priceThreeDescription {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 436px;
+  height: 375px;
+  text-align: left;
+  font: normal normal normal 47px/64px Helvetica;
+  letter-spacing: 4.7px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.sectionPerksPricing {
+  flex-basis: 100%;
+  height: 0;
+  height: 100vh;
+  width: 100%;
+  background-Color: #D34848;
+}
+
+.perkOneLineDividerPricing {
+  margin-top: 32px;
+  margin-left: 189px;
+  width: 104px;
+  height: 0px;
+  border: 2px solid white;
+  opacity: 1;
+}
+
+.perkOneTitlePricing {
+  margin-top: 59px;
+  margin-left: 188px;
+  width: 383px;
+  height: 185px;
+  text-align: left;
+  font: normal normal bold 51px/62px Helvetica;
+  letter-spacing: 5.1px;
+  color: white;
+  opacity: 1;
+}
+
+.perkOneDescriptionPricing {
+  margin-top: 72px;
+  margin-left: 188px;
+  width: 433px;
+  height: 163px;
+  text-align: left;
+  font: normal normal normal 35px/41px Helvetica;
+  letter-spacing: 3.5px;
+  color: black;
+  opacity: 1;
+}
+
+.perkTwoLineDividerPricing {
+  margin-top: 32px;
+  margin-left: 198px;
+  width: 104px;
+  height: 0px;
+  border: 2px solid white;
+  opacity: 1;
+}
+
+.perkTwoTitlePricing {
+  margin-top: 59px;
+  margin-left: 197px;
+  width: 342px;
+  height: 185px;
+  text-align: left;
+  font: normal normal bold 51px/62px Helvetica;
+  letter-spacing: 5.1px;
+  color: white;
+  opacity: 1;
+}
+
+.perkTwoDescriptionPricing {
+  margin-top: 72px;
+  margin-left: 197px;
+  width: 433px;
+  height: 163px;
+  text-align: left;
+  font: normal normal normal 35px/41px Helvetica;
+  letter-spacing: 3.5px;
+  color: black;
+  opacity: 1;}
+
+.perkThreeLineDividerPricing {
+  margin-top: 32px;
+  margin-left: 177px;
+  width: 104px;
+  height: 0px;
+  border: 2px solid white;
+  opacity: 1;
+}
+
+.perkThreeTitlePricing {
+  margin-top: 59px;
+  margin-left: 177px;
+  width: 383px;
+  height: 185px;
+  text-align: left;
+  font: normal normal bold 51px/62px Helvetica;
+  letter-spacing: 5.1px;
+  color: white;
+  opacity: 1;
+}
+
+.perkThreeDescriptionPricing {
+  margin-top: 72px;
+  margin-left: 177px;
+  width: 433px;
+  height: 163px;
+  text-align: left;
+  font: normal normal normal 35px/41px Helvetica;
+  letter-spacing: 3.5px;
+  color: black;
+  opacity: 1;
+}
+
+.CTAButtonOneContainer {
+  margin-left: -100px;
+}
+
+.CTAButtonOnePRICING {
+  margin-top: 20px;
+  margin-left: 5px;
+  width: 335px;
+  height: 84px;
+  background: #D24848 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 79px;
+  opacity: 1;
+}
+
+.CTAButtonTextOnePRICING {
+  width: 105px;
+  height: 28px;
+  text-align: left;
+  font: normal normal bold 24px/29px Helvetica;
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.CTAButtonTwoContainer {
+  margin-left: -240px;
+}
+
+.CTAButtonTwoPRICING {
+  margin-top: 20px;
+  margin-left: 143px;
+  width: 334px;
+  height: 84px;
+  background: #FFB33F 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  border: none;
+  opacity: 1;
+}
+
+.CTAButtonTextTwoPRICING {
+  width: 105px;
+  height: 28px;
+  text-align: left;
+  font: normal normal bold 24px/29px Helvetica;
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.CTAButtonThreeContainer {
+  margin-left: -240px;
+}
+
+.CTAButtonThreePRICING {
+  margin-top: 20px;
+  margin-left: 263px;
+  width: 334px;
+  height: 84px;
+  background: #1FE1E9 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  border: none;
+  opacity: 1;
+}
+
+.CTAButtonTextThreePRICING {
+  width: 105px;
+  height: 28px;
+  text-align: left;
+  font: normal normal bold 24px/29px Helvetica;
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+/* Pricing Page End */
+
+/* Payments Page Start */
+
+.sloganTextPAYMENT {
+  margin-top: 108px;
+  margin-left: 143px;
+  width: 398px;
+  height: 88px;
+  text-align: left;
+  font: normal normal bold 51pxHelvetica;
+  letter-spacing: 5.1px;
+  color: #000000;
+  opacity: 1;
+}
+
+.selectYourPlanTitle {
+  margin-top: 17px;
+  margin-left: 185px;
+  width: 456px;
+  height: 53px;
+  text-align: left;
+  font: normal normal normal 35px Helvetica;
+  letter-spacing: 3.5px;
+  color: #000000;
+  opacity: 1;
+}
+
+.selectYourPlanRadioGroup {
+  margin-top: 17px;
+  margin-left: 185px;
+}
+
+.twoStepGrid {
+  display: grid;
+  grid-template-columns: 480px 600px;
+  margin-left: 185px;
+}
+
+.billingInformationStep {
+  grid-column-start: 1;
+}
+
+.billingInformationTitle {
+  margin-top: 44px;
+  width: 507px;
+  height: 53px;
+  text-align: left;
+  font: normal normal normal 35px Helvetica;
+  letter-spacing: 3.5px;
+  color: #000000;
+  opacity: 1;
+}
+
+.fullNameLabel {
+  width: 137px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.billingAddressLabel {
+  width: 207px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.cityLabel {
+  width: 137px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.countryLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.postalCodeLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.creditCardInformation {
+  grid-column-start: 2;
+  margin-left: 100px;
+}
+
+.cardHolderNameLabel {
+  width: 287px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.cardNumberLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.expiryMonthLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.expiryYearLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.cvvLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #000000;
+  opacity: 1;
+}
+
+.termsAndConditionsTitle {
+  margin-top: 33px;
+  margin-left: 185px;
+  width: 831px;
+  height: 60px;
+  text-align: left;
+  letter-spacing: 2.2px;
+  opacity: 1;
+}
+
+.downloadButton {
+  margin-top: 10px;
+  margin-left: 185px;
+  width: 217px;
+  height: 60px;
+  background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  border:none;
+  opacity: 1;
+}
+
+.buttonName {
+  width: 127px;
+  height: 23px;
+  text-align: left;
+  font: normal normal bold 19px/24px Helvetica;
+  letter-spacing: 1.9px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.spacing {
+  margin-top: 150px;
+}
+
+.paymentForm {
+  margin-left: 200px;
+}
+
+.sectionUnderNavBackground {
+  background-color: #191919;
+  height: 10vh;
+  width: 100%;
+}
+
+/* Payments Page End */
